@@ -179,7 +179,17 @@ body{
 }
 
 
+#over{
+    color: black; /* THIS IS THE TEXT COLOR */
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
 
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+}
 
 
 
