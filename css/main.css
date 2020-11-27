@@ -185,13 +185,19 @@ body{
     text-decoration: none;
     font-family: 'Helvetica Neue';
     font-size: 14px;
+    font-weight: normal;
 
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
 
+    padding-bottom: 0px;
+
 }
 
-
+#mc_embed_signup form {
+    text-align: center;
+    padding: 0 0 0 0;
+}
 
 
 
