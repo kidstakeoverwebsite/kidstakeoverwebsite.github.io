@@ -1,0 +1,188 @@
+/*          SECTION ----- Fonts          */
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../font/HelveticaNeue.woff2') format('woff2'),
+        url('../font/HelveticaNeue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*          SECTION ----- HTML Elements          */
+
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'cursive'; /* As a test */
+    overflow: none;
+    background-image: url("../img/dot-tile.png");
+    background-repeat: repeat;
+}
+
+
+
+/*          SECTION ----- Custom: Top Section          */
+
+.topElementOuter{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.topElementInner{
+    background-color: white;
+    padding: 0px 10px 20px 10px;
+
+    position: absolute;
+    margin-top: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: black; /* THIS IS THE TEXT COLOR */
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
+
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.topElementInner img{
+    width: 36px;
+    transform: translateY(15px);
+    filter: saturate(1.8);
+}
+
+
+/*          SECTION ----- Custom: Middle Section          */
+
+.middleElementOuter{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.middleElementInner{
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+
+    color: black; /* THIS IS THE TEXT COLOR */
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Helvetica Neue';
+    font-size: 20px;
+
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+}
+
+.middleElementInner img{
+    width: 434px;
+}
+
+.heroSpacer{
+    height: 29px;
+}
+
+.linkSpacer{
+    width: 22px;
+    display: inline-block;
+}
+
+.icon16size{
+    font-size: 16px;
+}
+
+.middleElementInner a{
+    text-decoration: none;
+    color: black;
+}
+
+.middleElementInner a:hover{
+    color: #4E5558;
+}
+
+/*          SECTION ----- Custom: Bottom          */
+
+.bottomElementOuter{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bottomElementInner{
+    background-color: white;
+    padding: 10px;
+
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+
+    color: black; /* THIS IS THE TEXT COLOR */
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
+
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.bottomElementInner .label{
+    color: blue; /* THIS IS THE TEXT COLOR */
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Helvetica Neue';
+    font-size: 140px;
+
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.footerSpacer{
+    height: 0px;
+}
+
+.footerInlineSpacer{
+    display: inline-block;
+    width: 1px;
+}
+
+.footerInput{
+    font-size: 13px;
+    background-color: white;
+    border: none;
+    padding: 10px 70px 10px 18px;
+    border-radius: 2px;
+    border: 1px solid #ABB0B2;
+
+    margin-top: 15px;
+}
+
+
+.footerButton{
+    font-size: 13px;
+    color: white;
+    background-color: #ABB0B2;
+    border: none;
+    padding: 11px 27px;
+    border-radius: 2px;
+
+    cursor: pointer;
+
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
