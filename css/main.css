@@ -194,4 +194,8 @@ body{
 
 }
 
+.unclickable{
+    cursor: progress;
+}
+
 
